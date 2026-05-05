@@ -1,47 +1,79 @@
-# hospital-financial-analytics-dashboard
-Power BI dashboard analyzing hospital revenue, cost structure, and insurance impact
-Executive Summary
-This analysis evaluates hospital financial performance by examining revenue distribution, cost structure, and the impact of insurance coverage.
-The findings highlight key revenue drivers, cost inefficiencies, and the role of insurance in reducing patient financial burden.
-Revenue Insights
-•	Departments such as (Top Department) contribute the highest share of total revenue 
-•	Surgical and specialized services generate significantly higher revenue compared to general consultations 
-•	Inpatient services (IPD) contribute more revenue than outpatient (OPD), indicating higher-value treatments 
- Insight:
-Revenue is concentrated in high-cost, specialized services, suggesting dependency on critical care and surgeries.
-Cost Insights
-•	Treatment costs represent the largest portion of total expenses 
-•	Medicine and lab costs contribute moderately but consistently 
-•	Some departments show high cost with relatively lower revenue, indicating inefficiencies 
- Insight:
-Cost structure is heavily driven by treatment expenses, requiring better cost control strategies in high-expense departments.
-Profitability Insights
-•	Departments with high revenue do not always yield the highest profit 
-•	Certain departments may be revenue-rich but cost-heavy, reducing margins 
-•	Profitability varies significantly across services 
- Insight:
-Profit optimization requires balancing cost and revenue, not just increasing billing.
-Insurance Insights
-•	A significant portion of revenue is covered by insurance 
-•	Insurance reduces direct patient payment burden 
-•	IPD cases rely more heavily on insurance compared to OPD 
- Insight:
-Hospital revenue is strongly dependent on insurance providers, making insurance partnerships critical.
-Patient Payment Insights
-•	High-value bills are often partially covered by insurance 
-•	Patients still bear a notable percentage of total cost 
-•	Some cases show high out-of-pocket payments, which may impact patient satisfaction 
- Insight:
-There is a need to balance affordability with revenue generation.
-Key Problem Areas
-•	Departments with: 
-o	High cost but low profit 
-o	Low insurance coverage but high patient burden 
- Insight:
-These areas indicate potential inefficiencies and require strategic intervention.
-Recommendations
-•	Optimize high-cost departments through better resource allocation 
-•	Strengthen insurance partnerships to improve coverage 
-•	Focus on profitable service lines 
-•	Monitor cost vs revenue trends regularly 
-•	Improve pricing strategy for low-margin services
+# 📊 Hospital Financial Analytics Dashboard
+
+## 🔍 Project Overview
+This project focuses on analyzing hospital financial data to uncover insights related to revenue generation, cost structure, and insurance impact.  
+The dashboard enables stakeholders to make data-driven decisions to improve financial performance and operational efficiency.
+
+---
+
+## 🎯 Objectives
+- Analyze revenue across hospital departments and service types  
+- Identify major cost drivers (treatment, medicine, lab, etc.)  
+- Evaluate the impact of insurance on patient payments  
+- Compare inpatient (IPD) and outpatient (OPD) financial patterns  
+- Provide actionable insights for better financial planning  
+
+---
+
+## 📁 Dataset Description
+The dataset contains hospital transactional data with details on patient billing, cost components, and insurance coverage.
+
+### Key Fields:
+- **Patient_ID** – Unique patient identifier  
+- **Department** – Hospital department  
+- **Service_Type** – Type of service (Surgery, Consultation, etc.)  
+- **Admission_Type** – IPD / OPD classification  
+- **Total_Bill** – Total billed amount  
+- **Insurance_Coverage** – Amount covered by insurance  
+- **Patient_Payable** – Amount paid by patient  
+- **Treatment_Cost, Medicine_Cost, Lab_Cost, Other_Charges** – Cost breakdown  
+- **Admission_Date** – Date of service  
+
+---
+
+## 📊 Dashboard Pages
+
+### 1. Executive Overview
+- Key KPIs (Revenue, Insurance, Patient Payable, Avg Bill)  
+- Revenue trends over time  
+- Department-wise revenue  
+- Admission type distribution  
+
+---
+
+### 2. Financial Analysis
+- Cost breakdown (Treatment, Medicine, Lab, Others)  
+- Revenue vs Cost comparison  
+- Profitability analysis by department  
+
+---
+
+### 3. Insurance Analysis
+- Insurance vs Patient payment comparison  
+- Coverage percentage distribution  
+- Department-wise insurance contribution  
+- IPD vs OPD insurance usage  
+
+---
+
+### 4. Detailed Insights
+- Transaction-level analysis  
+- Top-performing departments  
+- High-value cases  
+- Interactive filtering for deeper insights  
+
+---
+
+## 📈 Key Insights
+- Revenue is primarily driven by high-value treatments and inpatient services  
+- Treatment costs are the largest contributor to overall expenses  
+- Insurance significantly reduces patient financial burden  
+- Certain departments show high costs with lower profitability, indicating optimization opportunities  
+
+---
+
+## 🛠 Tools & Technologies
+- Power BI  
+- DAX (Data Analysis Expressions)  
+- Data Modeling  
+
